@@ -1,0 +1,78 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #333;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input,
+select {
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.logout {
+  float: right;
+}
+
+/* Tombol Tambah - Oranye */
+.btn-tambah {
+  padding: 10px 20px;
+  background: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.btn-tambah:hover {
+  background: darkorange;
+}
+
+/* Tombol Edit - Biru */
+.btn-edit {
+  padding: 8px 15px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.btn-edit:hover {
+  background: darkblue;
+}
+
+/* Tombol Hapus - Merah */
+.btn-hapus {
+  padding: 8px 15px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.btn-hapus:hover {
+  background: darkred;
+}
